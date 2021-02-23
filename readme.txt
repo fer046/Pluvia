@@ -31,22 +31,3 @@ Getting out of recovery mode after restoring to stock iOS
 Run ./make_ipsw.sh <Any_Supported_Input_IPSW> reset
 Connect your iPhone 4 and put it in DFU mode.
 Run ./restore.sh <Reset_NVRAM_IPSW>
-
-Credits
-=======
-@xerub for De Rebus Antiquis iBoot exploit
-@dora2-iOS for the auto-booting version of the exploit (ramdiskH_beta4.dmg), and the firmware bundles (https://github.com/dora2-iOS/s0meiyoshino)
-@a8q for partitioning script in ramdisk
-@saurik for Cydia.tar
-UnthreadedJB for the iOS 5 untether
-p0sixspwn (@ih8sn0w, @squiffy, @winocm) for the iOS 6 untether
-s0uthwest, libimobiledevice, and @tihmstar for idevicerestore
-@axi0mx for ipwndfu
-@ih8sn0w, @NyanSatan, and @Merculous for iBoot32Patcher
-@tihmstar and @encounter for tsschecker
-@sequinn and @parrotgeek1 for root_tar
-
-Licensing note
-==============
-The ParrotGeek Software logo shown during the restore process is NOT licensed under the GPL and must be removed in any forks.
-Furthermore, any publicly released forks of this project must not use the word Pluvia anywhere in their name, or purport to be endorsed by ParrotGeek Software.
